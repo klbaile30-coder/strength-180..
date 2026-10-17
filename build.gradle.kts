@@ -1,1 +1,7 @@
-plugins { id("com.android.application") version "8.7.3" apply false }
+plugins { id("com.android.application") }
+android {
+    namespace = "com.kevin.strength180"
+    compileSdk = 35
+    defaultConfig { applicationId = "com.kevin.strength180"; minSdk = 24; targetSdk = 35; versionCode = 1; versionName = "1.0" }
+    compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
+}
